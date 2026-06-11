@@ -1,50 +1,50 @@
-# 🌟 Suparman - Portfolio Website
+# Suparman - Portfolio Website
 
 A modern, responsive portfolio website showcasing my journey as a Web Developer. Built with React, Tailwind CSS, and Framer Motion for smooth animations and elegant design.
 
 ![Portfolio Preview](public/webportfolio.png)
 
-## 🚀 Features
+## Features
 
-- **Modern Design**: Clean, professional UI with dark/light mode support
-- **Responsive Layout**: Optimized for all devices (mobile, tablet, desktop)
-- **Smooth Animations**: Elegant transitions using Framer Motion
-- **Bilingual Support**: Available in Indonesian and English (i18n)
-- **SEO Optimized**: Meta tags, Open Graph, and JSON-LD structured data
-- **Accessibility**: WCAG compliant with keyboard navigation and screen reader support
-- **Performance**: Fast loading with optimized assets and code splitting
+- Modern Design: Clean, professional UI with dark/light mode support
+- Responsive Layout: Optimized for all devices (mobile, tablet, desktop)
+- Smooth Animations: Elegant transitions using Framer Motion
+- Bilingual Support: Available in Indonesian and English (i18n)
+- SEO Optimized: Meta tags, Open Graph, and JSON-LD structured data
+- Accessibility: WCAG compliant with keyboard navigation and screen reader support
+- Performance: Fast loading with optimized assets and code splitting
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- **Frontend Framework**: React 18
-- **Styling**: Tailwind CSS
-- **Animation**: Framer Motion
-- **Build Tool**: Vite
-- **Internationalization**: i18next
-- **Icons**: Lucide React
-- **Testing**: Vitest + React Testing Library
+- Frontend Framework: React 18
+- Styling: Tailwind CSS
+- Animation: Framer Motion
+- Build Tool: Vite
+- Internationalization: i18next
+- Icons: Lucide React
+- Testing: Vitest + React Testing Library
 
-## 📦 Installation
+## Installation
 
-1. Clone the repository:
+Clone the repository:
 ```bash
 git clone https://github.com/minzdev/portfolio-website.git
 cd portfolio-website
 ```
 
-2. Install dependencies:
+Install dependencies:
 ```bash
 npm install
 ```
 
-3. Run development server:
+Run development server:
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:5173](http://localhost:5173) in your browser.
+Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-## 🏗️ Build & Deploy
+## Build & Deploy
 
 Build for production:
 ```bash
@@ -61,7 +61,7 @@ Run tests:
 npm test
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 portfolio-website/
@@ -83,7 +83,7 @@ portfolio-website/
 └── tailwind.config.js   # Tailwind CSS configuration
 ```
 
-## 🎨 Customization
+## Customization
 
 ### Update Personal Information
 
@@ -120,23 +120,23 @@ Add project objects to the `projects` array in `src/data/cv.js`:
 }
 ```
 
-## 🌐 Sections
+## Sections
 
-- **Hero**: Introduction with profile photo and CTA buttons
-- **About**: Professional summary and background
-- **Experience**: Work experience timeline
-- **Skills**: Technical skills grouped by category
-- **Education**: Academic background
-- **Certifications**: Professional certifications and training
-- **Projects**: Portfolio of featured projects
-- **GitHub Activity**: GitHub contribution stats
-- **Contact**: Contact information and social links
+- Hero: Introduction with profile photo and CTA buttons
+- About: Professional summary and background
+- Experience: Work experience timeline
+- Skills: Technical skills grouped by category
+- Education: Academic background
+- Certifications: Professional certifications and training
+- Projects: Portfolio of featured projects
+- GitHub Activity: GitHub contribution stats
+- Contact: Contact information and social links
 
-## 📝 License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👨‍💻 Author
+## Author
 
 **Suparman**
 - Website: [suparman.dev](https://suparman.dev)
@@ -144,12 +144,8 @@ This project is open source and available under the [MIT License](LICENSE).
 - LinkedIn: [suparman0921](https://www.linkedin.com/in/suparman0921/)
 - Email: suparman0921@gmail.com
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Design inspiration from modern portfolio websites
 - Icons by [Lucide](https://lucide.dev/)
 - Fonts by [Google Fonts](https://fonts.google.com/) (Inter & JetBrains Mono)
-
----
-
-⭐ If you like this project, please give it a star on GitHub!
