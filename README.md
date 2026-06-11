@@ -2,7 +2,7 @@
 
 A modern, responsive portfolio website showcasing my journey as a Web Developer. Built with React, Tailwind CSS, and Framer Motion for smooth animations and elegant design.
 
-![Portfolio Preview](public/og-image.png)
+![Portfolio Preview](public/webportfolio.png)
 
 ## 🚀 Features
 
