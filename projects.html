@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Tema browser UI (nice-to-have) -->
+    <meta name="theme-color" content="#09090b" />
+
+    <!-- Tipografi: Inter (sans) + JetBrains Mono (aksen), konsisten dengan beranda. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <!-- SEO dasar; react-helmet-async menimpa secara dinamis saat runtime. -->
+    <title>Proyek — Suparman</title>
+    <meta name="description"
+        content="Daftar proyek Suparman — pengembangan web front end & back end, serta solusi keuangan dan sistem." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Proyek — Suparman" />
+    <meta property="og:description"
+        content="Daftar proyek Suparman — pengembangan web front end & back end, serta solusi keuangan dan sistem." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.png" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Proyek — Suparman" />
+    <meta name="twitter:description"
+        content="Daftar proyek Suparman — pengembangan web front end & back end, serta solusi keuangan dan sistem." />
+    <meta name="twitter:image" content="/og-image.png" />
+
+    <!-- Anti-flash tema: jalankan SEBELUM React mount (konsisten dengan beranda). -->
+    <script>
+        (function () {
+            try {
+                var stored = localStorage.getItem('theme');
+                var prefersDark =
+                    window.matchMedia &&
+                    window.matchMedia('(prefers-color-scheme: dark)').matches;
+                if (stored === 'dark' || (stored !== 'light' && prefersDark)) {
+                    document.documentElement.classList.add('dark');
+                }
+            } catch (e) {
+                /* localStorage tidak tersedia; abaikan tanpa melempar error. */
+            }
+        })();
+    </script>
+</head>
+
+<body>
+    <div id="root"></div>
+    <script type="module" src="/src/projects-main.jsx"></script>
+</body>
+
+</html>

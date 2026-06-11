@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+  <!-- Tema browser UI (nice-to-have) -->
+  <meta name="theme-color" content="#09090b" />
+
+  <!-- Tipografi: Inter (sans) untuk heading/teks dan JetBrains Mono untuk aksen
+       label/teknis, selaras dengan gaya elegan & profesional. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- SEO dasar (Req 11.1). react-helmet-async menimpa secara dinamis saat runtime;
+         tag statis ini menjadi fallback untuk crawler yang tidak menjalankan JS. -->
+  <title>Suparman — Web Developer</title>
+  <meta name="description"
+    content="Suparman — Junior Web Developer & Analis Program. Web Developer dengan latar belakang S1 Teknologi Informasi, bersertifikasi BNSP, dan alumni DBS Foundation Coding Camp." />
+
+  <!-- Open Graph (fallback statis, Req 11.2) -->
+  <meta property="og:title" content="Suparman — Web Developer" />
+  <meta property="og:description"
+    content="Junior Web Developer & Analis Program. Membangun aplikasi web yang bersih, responsif, dan berorientasi pada kebutuhan pengguna." />
+  <meta property="og:type" content="profile" />
+  <meta property="og:image" content="/og-image.png" />
+
+  <!-- Twitter Card (fallback statis, Req 11.2) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Suparman — Web Developer" />
+  <meta name="twitter:description"
+    content="Junior Web Developer & Analis Program. Membangun aplikasi web yang bersih, responsif, dan berorientasi pada kebutuhan pengguna." />
+  <meta name="twitter:image" content="/og-image.png" />
+
+  <!-- Anti-flash tema: jalankan SEBELUM React mount agar tidak ada kedipan
+         tema yang salah (Req 10.2). Kunci 'theme' harus konsisten dengan
+         THEME_STORAGE_KEY pada src/lib/theme.js, dan kelas 'dark' pada <html>
+         konsisten dengan sinkronisasi ThemeProvider. -->
+  <script>
+    (function () {
+      try {
+        var stored = localStorage.getItem('theme');
+        var prefersDark =
+          window.matchMedia &&
+          window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (stored === 'dark' || (stored !== 'light' && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      } catch (e) {
+        /* localStorage tidak tersedia; abaikan tanpa melempar error. */
+      }
+    })();
+  </script>
+  <script type="module" crossorigin src="/assets/main-CyyCFuxf.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/index-H5nDBP2m.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-Bwe61ITn.css">
+</head>
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>

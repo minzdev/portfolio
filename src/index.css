@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    /* Gulir halus antar bagian (Requirement 1.2). */
+    scroll-behavior: smooth;
+  }
+
+  /* Cegah gulir horizontal pada lebar >= 320px (Requirement 9.2, 9.6). */
+  html,
+  body {
+    @apply overflow-x-hidden;
+    max-width: 100%;
+  }
+
+  body {
+    /* Permukaan dasar bertema zinc gelap dengan teks terang; mode terang tetap
+       didukung untuk Req 10. Tanpa warna dasar ini, mode gelap hanya mengubah
+       warna teks komponen sehingga teks nyaris tak terbaca (Req 10.2). */
+    @apply bg-white font-sans text-zinc-900 antialiased transition-colors dark:bg-zinc-950 dark:text-zinc-100;
+    @apply text-body;
+  }
+
+  /* Media responsif secara default: tidak melebihi lebar kontainer induk dan
+     mempertahankan rasio aspek tanpa terpotong/terdistorsi (Requirement 9.4). */
+  img,
+  svg,
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+
+  img {
+    object-fit: contain;
+  }
+
+  /* Hormati preferensi reduksi gerak pengguna (Requirement 12.2). */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+}
+
+@layer components {
+
+  /* Kolom konten terpusat dengan "rail" garis vertikal di kedua sisi, meniru
+     bingkai konten ala terminal pada referensi desain. */
+  .content-rail {
+    @apply mx-auto w-full max-w-3xl border-x border-zinc-200 px-6 dark:border-zinc-800/80 sm:px-8;
+  }
+
+  /* Label monospace kecil bergaya terminal untuk eyebrow/penanda bagian. */
+  .mono-label {
+    @apply font-mono text-label font-medium uppercase tracking-wider text-zinc-400 dark:text-zinc-500;
+  }
+
+  /* Pita pembatas antar-bagian dengan motif garis diagonal (hatch). */
+  .hatch-divider {
+    @apply h-10 w-full border-y border-zinc-200 dark:border-zinc-800/80;
+    background-image: repeating-linear-gradient(-45deg,
+        theme('colors.zinc.200') 0,
+        theme('colors.zinc.200') 1px,
+        transparent 1px,
+        transparent 8px);
+  }
+
+  .dark .hatch-divider {
+    background-image: repeating-linear-gradient(-45deg,
+        theme('colors.zinc.800') 0,
+        theme('colors.zinc.800') 1px,
+        transparent 1px,
+        transparent 8px);
+  }
+
+  /* Kartu/baris bergaya garis tipis yang halus, bukan kartu tebal berbayang. */
+  .line-card {
+    @apply border border-zinc-200 bg-zinc-50/60 transition-colors dark:border-zinc-800 dark:bg-zinc-900/40;
+  }
+}
