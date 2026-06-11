@@ -27,7 +27,7 @@ import ThemeToggle from './ThemeToggle.jsx';
 import LanguageToggle from './LanguageToggle.jsx';
 
 /** Nama/brand yang ditampilkan di sisi kiri Navigation_Bar. */
-const BRAND_NAME = 'suparman.dev';
+const BRAND_NAME = 'suparman';
 
 /** Id elemen panel menu mobile; ditunjuk oleh `aria-controls` tombol hamburger. */
 const MOBILE_MENU_ID = 'mobile-menu';
