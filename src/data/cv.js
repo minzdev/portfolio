@@ -378,54 +378,7 @@ export const projects = [
             'Menghasilkan website yang cepat dimuat (Lighthouse score tinggi) dan ramah mesin pencari.',
         ],
     },
-    {
-        slug: 'story-frontend-app',
-        name: 'Aplikasi Front End Story',
-        description:
-            'Aplikasi web single-page untuk berbagi cerita dengan komponen yang dapat digunakan ulang dan desain responsif.',
-        year: '2024',
-        tech: ['JavaScript', 'Webpack', 'PWA'],
-        category: 'Front End Development',
-        url: 'https://github.com/minzdev',
-        liveUrl: '',
-        images: [],
-        ownership: 'Solo project',
-        role: 'Front End Developer',
-        team: '',
-        responsibilities: [
-            'Mengembangkan SPA dengan arsitektur komponen modular menggunakan vanilla JavaScript.',
-            'Mengimplementasikan fitur PWA agar aplikasi dapat diinstal dan bekerja offline.',
-            'Mengoptimalkan performa bundle dengan Webpack code splitting.',
-        ],
-        impact: [
-            'Menghasilkan aplikasi yang dapat diakses tanpa koneksi internet melalui service worker.',
-            'Meningkatkan engagement pengguna dengan pengalaman yang menyerupai native app.',
-        ],
-    },
-    {
-        slug: 'dashboard-keuangan',
-        name: 'Dashboard Keuangan',
-        description:
-            'Alat bantu pencatatan dan pelaporan keuangan internal untuk mempercepat rekonsiliasi dan audit.',
-        year: '2023',
-        tech: ['React', 'Chart.js', 'REST API'],
-        category: 'Web Development',
-        url: '',
-        liveUrl: '',
-        images: [],
-        ownership: 'Solo project',
-        role: 'Full Stack Developer',
-        team: '',
-        responsibilities: [
-            'Merancang dashboard interaktif dengan visualisasi data menggunakan Chart.js.',
-            'Mengintegrasikan REST API untuk sinkronisasi data keuangan secara real-time.',
-            'Mengimplementasikan fitur ekspor laporan ke format yang dibutuhkan.',
-        ],
-        impact: [
-            'Mempersingkat waktu rekonsiliasi keuangan secara signifikan.',
-            'Memudahkan proses audit internal dengan jejak data yang terstruktur.',
-        ],
-    },
+
 ];
 
 /**
