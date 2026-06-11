@@ -271,54 +271,8 @@ export const projects = [
             "Producing a fast-loading website (high Lighthouse score) and search engine-friendly.",
         ],
     },
-    {
-        slug: 'story-frontend-app',
-        name: 'Story Front-End App',
-        description:
-            'A single-page web app for sharing stories with reusable components and a responsive design.',
-        year: '2024',
-        tech: ['JavaScript', 'Webpack', 'PWA'],
-        category: 'Front End Development',
-        url: 'https://github.com/minzdev',
-        liveUrl: '',
-        images: [],
-        ownership: 'Solo project',
-        role: 'Front End Developer',
-        team: '',
-        responsibilities: [
-            'Developed a SPA with a modular component architecture using vanilla JavaScript.',
-            'Implemented PWA features so the app can be installed and work offline.',
-            'Optimized bundle performance with Webpack code splitting.',
-        ],
-        impact: [
-            'Delivered an app accessible without an internet connection via service worker.',
-            'Improved user engagement with a native app-like experience.',
-        ],
-    },
-    {
-        slug: 'dashboard-keuangan',
-        name: 'Finance Dashboard',
-        description:
-            'An internal financial bookkeeping and reporting tool to speed up reconciliation and audits.',
-        year: '2023',
-        tech: ['React', 'Chart.js', 'REST API'],
-        category: 'Web Development',
-        url: '',
-        liveUrl: '',
-        images: [],
-        ownership: 'Solo project',
-        role: 'Full Stack Developer',
-        team: '',
-        responsibilities: [
-            'Designed an interactive dashboard with data visualization using Chart.js.',
-            'Integrated a REST API for real-time financial data synchronization.',
-            'Implemented report export functionality in required formats.',
-        ],
-        impact: [
-            'Significantly reduced financial reconciliation time.',
-            'Simplified internal audits with structured, filterable data trails.',
-        ],
-    },
+    
+   
 ];
 
 /** Kontak (EN). Nilai teknis (email/telepon/sosial) identik dengan versi id. */
