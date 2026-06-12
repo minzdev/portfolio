@@ -139,7 +139,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ## Author
 
 **Suparman**
-- Website: [suparman.dev](https://suparman.dev)
 - GitHub: [@minzdev](https://github.com/minzdev)
 - LinkedIn: [suparman0921](https://www.linkedin.com/in/suparman0921/)
 - Email: suparman0921@gmail.com

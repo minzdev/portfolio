@@ -69,7 +69,7 @@ export default function ProjectsPage() {
                         href="/"
                         className="rounded-md px-1 py-1 font-mono text-base font-bold tracking-tight text-zinc-900 transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand focus-visible:ring-offset-2 dark:text-white dark:focus-visible:ring-offset-zinc-950"
                     >
-                        suparman.dev
+                        suparman
                     </a>
                     <div className="flex items-center gap-1">
                         <LanguageToggle />
