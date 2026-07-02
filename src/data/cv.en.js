@@ -129,14 +129,14 @@ export const education = [
     {
         institution: 'Bina Sarana Informatika University',
         program: 'B.Sc. in Information Technology',
-        period: '2020 - 2024',
-        startDate: '2020-09',
+        period: 'September 2021 - December 2025',
+        startDate: '2021-09',
     },
     {
         institution: 'SMK Pembangunan Cibadak (Vocational High School)',
         program: 'Computer & Network Engineering',
-        period: '2014 - 2017',
-        startDate: '2014-07',
+        period: 'June 2017 - June 2020',
+        startDate: '2017-06',
     },
 ];
 

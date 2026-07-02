@@ -228,14 +228,14 @@ export const education = [
     {
         institution: 'Universitas Bina Sarana Informatika',
         program: 'S1 Teknologi Informasi',
-        period: '2020 - 2024',
-        startDate: '2020-09',
+        period: 'September 2021 - Desember 2025',
+        startDate: '2021-09',
     },
     {
         institution: 'SMK Pembangunan Cibadak',
         program: 'Teknik Komputer dan Jaringan',
-        period: '2014 - 2017',
-        startDate: '2014-07',
+        period: 'Juni 2017 - Juni 2020',
+        startDate: '2017-06',
     },
 ];
 
